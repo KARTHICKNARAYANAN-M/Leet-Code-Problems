@@ -1,4 +1,4 @@
 # Leet-Code-Problems
 
-Here I solved my medium level Leetocode problems ..
+Here I solved my Leetocode problems ..
 
