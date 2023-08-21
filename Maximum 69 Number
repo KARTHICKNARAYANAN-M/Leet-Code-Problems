@@ -34,20 +34,14 @@ class Solution {
         char b[]=x.toCharArray();
         for(int i=0;i<b.length;i++)
         {
-            if(b[i]=='9')
-              b[i]='6';
-            else
+            if(b[i]=='6')
+            {
               b[i]='9';
-            int y=Integer.parseInt(new String(b));
-            if(y>num)
-              num=y;
-            
-            if(b[i]=='9')
-              b[i]='6';
-            else
-              b[i]='9';
+              break;
+            }
+        
         }
-        return num;
+        return Integer.parseInt(new String(b));
         
     }
 }
